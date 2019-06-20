@@ -5,3 +5,5 @@ export default class TableModel {
     constructor();
     sort(options: any): void;
 }
+
+export declare function mergeTablesIntoModel(dst?: TableModel, ...tables: TableModel[]): TableModel;
